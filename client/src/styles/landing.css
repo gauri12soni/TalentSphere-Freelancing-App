@@ -1,0 +1,120 @@
+.landing-page{
+
+    height: fit-content;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.landing-hero {
+    position: relative;
+    height: 100vh; 
+    width: 100%; 
+    overflow: hidden; 
+}
+
+.background-video {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%;
+    transform: translate(-50%, -50%, ); 
+    object-fit: cover; 
+    z-index: -1; 
+}
+
+.landing-nav{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    padding: 0 2vw;
+    align-items: center;
+}
+
+.landing-nav h3{
+
+    margin: 0;
+    font-size: 2rem;
+    font-weight: solid bold;
+    color: #0fa4df;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.landing-nav button{
+
+    padding: 10px 30px;
+    font-size: 1rem;
+    background-color: #d2e2e9;
+    border: 1.5px solid #06465f;
+    color: #06465f;
+    border-radius: 3rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.landing-nav button:hover{
+
+    padding: 10px 30px;
+    font-size: 1rem;
+    background-color: #0fa4df;
+    border: 2px solid #06465f;
+    color: #ffffff;
+
+    border-radius: 4rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.landing-hero-text{
+
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10vh;
+    text-align: center;
+    color: #0fa4df;
+}
+
+.landing-hero-text h1{
+
+    font-size: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: #0fa4df;
+}
+
+
+.landing-hero-text p{
+
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+    color: #fff;
+}
+
+.landing-hero-text button{
+
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    background-color: #d2e2e9;
+    border: 1.5px solid #06465f;
+    color: #06465f;
+    border-radius: 3rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.landing-hero-text button:hover{
+
+    padding: 10px 30px;
+    font-size: 1rem;
+    background-color: #0fa4df;
+    border: 2px solid #06465f;
+    color: #ffffff;
+
+    border-radius: 3rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
